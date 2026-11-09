@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    background: #eef2f7;
+}
+.course-card{
+    width: min(440px, 90vh);
+    padding: 30px;
+    background: #f3ecec;
+    box-shadow: 0 10px 20px 0 rgb(225 0 0 / 0.2);
+}
+.tag{
+    font-weight: bold;
+    color: #de0000;
+}
+.label{
+    display: flex;
+    margin:15px 0;
+
+}
+input, select,button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+input,select{
+    border: 1px solid #de0000;
+}
+button{
+    margin-top: 10px;
+    border:none;
+    background: #ef9494;
+    color: #94e1ef;
+    cursor:pointer;
+}
+.secondary{
+    background: #eefff3;
+    color: #001741;
+}
+.hidden{
+    display: none;
+}
+.success{
+    font-weight: bold;
+    color: #ff0024;
+}
+.dark{
+    background: #1e0000;
+    color: #fff;
+}
+.dark,.success{
+    background: #001741;
+    color: #fff;
+}
+#welcome, .cost{
+    margin-top: 20px;
+}
