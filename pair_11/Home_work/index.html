@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Налаштування профілю</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="course-card" id="card">
+    <p class="tag">Особистий кабінет</p>
+    <h1>Налаштування профілю</h1>
+
+    <p id="welcome">Вітаємо, гостю!</p>
+    <label for="studentName">Ваше ім'я</label>
+    <input id="studentName" type="text" placeholder="Введіть своє ім'я">
+
+    <button id="saveBtn">Підтвердити зміни</button>
+
+    <p id="status">Зміни ще не підтверджені</p>
+    <label for="theme">Кольорова тема</label>
+    <select id="theme">
+        <option value="light">Світла</option>
+        <option value="dark">Темна</option>
+        <option value="blue">Синя</option>
+    </select>
+    <button id="detailedBtn" class="secondary">Показати інформацію</button>
+    <p class="hidden" id="details">
+        Тут знаходиться додаткова інформація про ваш профіль.
+        Ви можете змінити ім'я та кольорову тему сторінки.
+    </p>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
