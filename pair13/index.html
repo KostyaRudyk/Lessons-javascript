@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Клуб подій</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="app">
+    <h1>Клуб подій</h1>
+    <p>Реєстрація учасників на шкільні події</p>
+
+    <div class="form-row">
+        <input id="participantInput" type="text" placeholder="Ім'я учасника">
+        <input id="eventInput" type="text" placeholder="Назва події">
+        <button id="addButton" type="button">Додати заявку</button>
+    </div>
+
+    <p id="errorMessage"></p>
+
+    <div class="stats">
+        <p>Усього заявок: <strong id="totalCounter">0</strong></p>
+        <p>Підтверджено: <strong id="confirmedCounter">0</strong></p>
+    </div>
+
+    <button id="clearAllButton" type="button">Очистити всі</button>
+
+    <p id="emptyMessage">Заявок поки немає</p>
+
+    <ul id="requestList"></ul>
+</main>
+
+<script src="script.js" defer></script>
+</body>
+</html>
